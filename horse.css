@@ -1,0 +1,81 @@
+iframe {
+ display: block;
+    margin: auto;
+    border: 0; 
+  }
+  
+#info {
+border-width: 3;
+border-color: black;
+border-style: solid;
+
+}
+
+#game {
+  background-color: #2B8937;
+ /* background-image: url("background-horse.png"); */
+  width: 100%;
+  height: 100%;
+  display:block
+
+}
+
+#gametext {
+color: #FFFC56;
+font-size: 36px;
+left: 270px;
+top: 100px;
+position: absolute
+}
+
+#instructions {
+position: absolute;
+color: black;
+font-size: 24px;
+left: 280px;
+top: 100px;
+
+}
+
+#horse {
+position: absolute;
+left: 20px;
+top: 280px;
+
+}
+
+
+
+#gamebackground {
+  position:relative;
+  margin-right:auto;
+  margin-left:auto;
+  width:800px;
+  height:500px;
+  }
+  
+#gamestart {
+  position:absolute;
+    background-color: #215EB1;
+    border: 3px;
+	border-color: black;
+	border-style: solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	left: 310px;
+	top: 300px;
+	
+  
+}
+#score {
+position: absolute;
+top: 20px;
+left: 20px;
+font-size: 16px;
+
